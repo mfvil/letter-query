@@ -1,0 +1,6 @@
+name: Letter Query
+type: module
+description: Query letters
+package: Custom
+core: 8.x
+core_version_requirement: ^8 || ^9

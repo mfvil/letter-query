@@ -1,0 +1,5 @@
+services:
+  letter_query_client:
+    class: Drupal\letter_query\Plugin\views\LetterQueryClient
+    autowire: true
+    arguments: ['@http_client_factory']
